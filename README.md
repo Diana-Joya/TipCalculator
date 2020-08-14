@@ -1,8 +1,53 @@
-# CodePath iOS University Pre-Work for Fall2020 Admissions Application 
-## by Diana Joya
+# Pre-work - Tip Calculator
 
-Created as part of the application process to CodePath's Fall 2020 iOS remote class
-Tip Calculator is an iOS app developed using Swift and XCode to calculate the tip amount based on a bill and the option of tipping 15, 18 or 20% chosen by the user. 
+TipCalculator is a tip calculator application for iOS.
 
+Submitted by: Diana Joya
 
-![app-preview-gif](https://github.com/Diana-Joya/TipCalculator/blob/master/app%20gif.gif)
+Time spent: 3 hours spent in total
+
+## User Stories
+
+The following **required** functionality is complete:
+
+* [X] User can enter a bill amount, choose a tip percentage, and see the tip and total values.
+* [X] User can select between tip percentages by tapping different values on the segmented control and the tip value is updated accordingly
+
+The following **optional** features are implemented:
+
+* [ ] UI animations
+* [ ] Remembering the bill amount across app restarts (if <10mins)
+* [ ] Using locale-specific currency and currency thousands separators.
+* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+
+The following **additional** features are implemented:
+
+- [ ] List anything else that you can get done to improve the app functionality!
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='http://g.recordit.co/gbQUV3KFmK.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [Recordit](https://recordit.co/).
+
+## Notes
+
+This was my first time building a Swift iOS application so my biggest challenge was learning how to correctly connect storyboard elements to the ViewController and ensuring the correct storyboard element was used for different application features so that the app could be as responsive and easy to use for the user as possible. 
+
+## License
+
+    Copyright [2020] [Diana Joya]
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
